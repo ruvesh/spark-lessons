@@ -1,4 +1,4 @@
-package nasaProblems;
+package rdd.nasaProblems;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
