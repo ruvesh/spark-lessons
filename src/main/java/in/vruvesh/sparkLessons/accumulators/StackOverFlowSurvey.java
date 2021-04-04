@@ -1,6 +1,6 @@
-package accumulators;
+package in.vruvesh.sparkLessons.accumulators;
 
-import common.Utils;
+import in.vruvesh.sparkLessons.common.Utils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;

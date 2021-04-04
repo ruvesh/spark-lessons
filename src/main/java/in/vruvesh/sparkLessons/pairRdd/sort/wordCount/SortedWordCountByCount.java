@@ -1,6 +1,6 @@
-package pairRdd.sort.wordCount;
+package in.vruvesh.sparkLessons.pairRdd.sort.wordCount;
 
-import common.Utils;
+import in.vruvesh.sparkLessons.common.Utils;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;

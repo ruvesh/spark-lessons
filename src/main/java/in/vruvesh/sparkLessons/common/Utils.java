@@ -1,4 +1,4 @@
-package common;
+package in.vruvesh.sparkLessons.common;
 
 public class Utils {
 

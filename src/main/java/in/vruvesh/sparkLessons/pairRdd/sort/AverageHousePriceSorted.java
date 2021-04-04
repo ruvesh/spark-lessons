@@ -1,10 +1,10 @@
-package pairRdd.sort;
+package in.vruvesh.sparkLessons.pairRdd.sort;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
-import pairRdd.AvgCount;
+import in.vruvesh.sparkLessons.pairRdd.AvgCount;
 import scala.Tuple2;
 
 public class AverageHousePriceSorted {

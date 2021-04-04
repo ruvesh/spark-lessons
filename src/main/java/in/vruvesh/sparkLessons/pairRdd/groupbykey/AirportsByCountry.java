@@ -1,6 +1,6 @@
-package pairRdd.groupbykey;
+package in.vruvesh.sparkLessons.pairRdd.groupbykey;
 
-import common.Utils;
+import in.vruvesh.sparkLessons.common.Utils;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;

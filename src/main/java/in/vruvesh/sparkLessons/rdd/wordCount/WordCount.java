@@ -1,6 +1,6 @@
-package rdd.wordCount;
+package in.vruvesh.sparkLessons.rdd.wordCount;
 
-import common.Utils;
+import in.vruvesh.sparkLessons.common.Utils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;

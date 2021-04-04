@@ -1,4 +1,4 @@
-package pairRdd;
+package in.vruvesh.sparkLessons.pairRdd;
 
 import java.io.Serializable;
 
