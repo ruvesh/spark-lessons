@@ -24,7 +24,8 @@ public class HousePriceProblem {
 
         Dataset<Row> houseDetails = dataFrameReader.option("header", "true").csv("in/RealEstate.csv");
         Dataset<Row> castedHouseDetails = houseDetails.withColumn("Price SQ Ft", col("Price SQ Ft").cast("double"))
-                .withColumn("Price", col("Price").cast("double"));
+                .withColumn("Price", col("Price").cast("double"))
+                .withColumn("Location", trim(col("Location")));
 
         castedHouseDetails.groupBy(col("Location"))
                 .agg(avg(col("Price SQ Ft")), max(col("Price")))
